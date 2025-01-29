@@ -127,3 +127,7 @@ elif menu == "Contact":
     email = "HazelhurstLT@tut.ac.za"
     st.header("Contact Information")
     st.write(f"You can reach {name} at {email}.")
+
+# Buy me a coffee
+from streamlit_extras.buy_me_a_coffee import button 
+button(username="Geeks", floating=True, width=250)
